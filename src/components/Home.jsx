@@ -132,6 +132,9 @@ export default function Home() {
   const handleOnClick = ()=>{
     Navigate('/news');
   };
+  const cocktailOnClick = () => {
+    Navigate('/cocktail');
+  };
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -149,10 +152,7 @@ export default function Home() {
             Info Hub
           </Typography>
           <Button color="inherit" onClick={handleOnClick}>News</Button>
-
-          <Button color="inherit">Weather</Button>
-          <Button color="inherit">Quote</Button>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit" onClick={cocktailOnClick}>Cocktail</Button>
         </Toolbar>
       </AppBar>
       
