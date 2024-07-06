@@ -135,6 +135,9 @@ export default function Home() {
   const cocktailOnClick = () => {
     Navigate('/cocktail');
   };
+  const pokemonOnClick =() =>{
+    Navigate('/pokemon');
+  }
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -153,6 +156,7 @@ export default function Home() {
           </Typography>
           <Button color="inherit" onClick={handleOnClick}>News</Button>
           <Button color="inherit" onClick={cocktailOnClick}>Cocktail</Button>
+          <Button color="inherit" onClick= {pokemonOnClick}>Pokemon</Button>
         </Toolbar>
       </AppBar>
       

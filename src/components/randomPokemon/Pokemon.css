@@ -1,0 +1,31 @@
+.RandomPokemonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  .PokemonHeader{
+    justify-content: top;
+    align-items: top;
+  }
+  .RandomPokemon {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 80%;
+    max-width: 1000px; 
+  }
+  
+  .PokemonItem {
+    text-align: center;
+    margin: 0 10px; 
+  }
+  
+  .RandomPokemon img {
+    width: 150px;
+  }
+  
+  .RandomPokemon h1 {
+    color: blue;
+  }
+  
