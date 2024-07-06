@@ -5,8 +5,9 @@
     /* height: 100vh; */
   }
   .PokemonHeader{
-    justify-content: top;
-    align-items: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .RandomPokemon {
     display: flex;
